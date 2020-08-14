@@ -51,12 +51,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstrack\Auditable.cs" />
+    <Compile Include="Abstrack\IAuditable.cs" />
+    <Compile Include="model\Footer.cs" />
+    <Compile Include="model\Menu.cs" />
+    <Compile Include="model\MenuGroup.cs" />
+    <Compile Include="model\Order.cs" />
+    <Compile Include="model\OrderDetail.cs" />
+    <Compile Include="model\Page.cs" />
+    <Compile Include="model\Post.cs" />
+    <Compile Include="model\Product.cs" />
+    <Compile Include="model\ProductCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
